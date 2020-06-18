@@ -92,14 +92,17 @@ h1 {
 
 #center input {
     border-radius: 20px;
-    align-items: center;
-    text-align: center;
+
     background-color: yellow;
     padding: 5px;
     font-size: 15px;
-    margin-left: 607px;
     cursor: pointer;
     text-decoration: underline solid blue;
+}
+
+#contactus {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /*center style edit end*/
@@ -108,7 +111,6 @@ h1 {
 
 #form {
     padding: 10px;
-    background: white;
     display: flex;
     justify-content: center;
     color: black;
@@ -120,6 +122,11 @@ h1 {
     height: 25px;
     align-items: center;
     text-align: center;
+}
+
+#box {
+    background: #edeef0;
+    opacity: 40%;
 }
 
 .submit {
@@ -181,7 +188,7 @@ table li {
 }
 
 .tab td:hover {
-    color: blueviolet;
+    color: red;
 }
 
 /*table style edit end*/
